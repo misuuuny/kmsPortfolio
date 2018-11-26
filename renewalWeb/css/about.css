@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+header, footer{font-family: 'Noto Sans KR', sans-serif ;}
+
+/*건물 이미지*/
+.img img{width: 100%}
+
+/*이미지 하단 메뉴*/
+.menu{width: 100%; height: 50px; border-bottom: 1px solid #a6a1a1}
+.menu .menu1>li{float: left; width: 12%;height: 50px; border-right: 1px solid #a6a1a1; text-align: center; line-height: 50px; font-size: 16px; font-weight: 300;}
+.menu .menu1>li:first-child{width: 62px; border-left: 1px solid #a6a1a1; margin-left: 50px;}
+.menu .menu1>li a{display: block; color:#414141;}
+.menu .menu2{background: #fff; border:1px solid #efefef; z-index: 999; display: none; margin-bottom:20px;}
+.menu .menu2 li{height: 23px; font-size: 14px; line-height: 23px;}
+.menu .menu2 li:hover{background: #efefef; line-height: 20px;}
+
+/*ceo인사말*/
+.ceo{width: 1180px; height:992px; margin:0 auto;background: url(../images/ceosign.jpg) no-repeat 47% 85%; position: relative;}
+.ceo h1{font-size: 50px; text-align: center; margin-top: 100px; margin-bottom:17px; font-family: 'NanumSquare';}
+.ceo div{width: 60px; height: 1px; background: #414141; text-indent: -99999%; margin:0 auto; margin-bottom: 165px;}
+.ceo .img2 li:first-child{position: absolute; left:70px; top:220px;}
+.ceo .img2 li:last-child{position: absolute; right:70px; top:220px;}
+.ceo .one{font-size: 24px; font-weight: 400; text-align: center;line-height: 30px;}
+.ceo .content{margin-top: 168px;}
+.ceo .content li{float: left;}
+.ceo .two{font-size: 18px; margin-top: 30px; line-height: 1.3em;  }
+

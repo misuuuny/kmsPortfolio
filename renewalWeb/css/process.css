@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+/*top스크롤버튼*/
+body{position: relative; font-family: 'Noto Sans KR', sans-serif }
+#top{width: 3.5%; height: 50px; text-align: center; line-height:50px;border:2px solid #0d204b; position: absolute; bottom:2.5%;  right:2.5%; cursor: pointer;}
+#portpolio{width: 5%; height: 50px; text-align: center; position: absolute; bottom:2.5%; right: 10%; border:2px solid #0d204b; cursor: pointer; line-height: 23px; color:#0d204b;}
+#portpolio a{color:#0d204b; display: block;}
+
+header{width: 100%; position: relative;}
+header img{width: 100%; height: 600px;}
+header li{width:17%; height: 40px; border:1px solid #fff; float:left; text-align: center; line-height: 40px;}
+header li a{color:#fff; display: block}
+header li:nth-child(1){position: absolute; bottom:25%; left:30%;}
+header li:nth-child(2){position: absolute;bottom:25%; right:30%; background-color: #0d204b;}
+
+.intro{width: 100%; height: 870px;  background:#fff url(../images/introduction.jpg) no-repeat 50% 50%;}
+
+.style{width: 100%; height: 1005px; background: #eeeeee url(../images/style.jpg) no-repeat 50% 50%}
+
+.detail{width: 100%; height: 2573px; background: #fff url(../images/detail.jpg) no-repeat 50% 50%;}

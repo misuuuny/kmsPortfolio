@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+/*'Noto Sans KR', sans-serif */
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500');
+
+/*'NanumSquare'*/
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+
+/*'Nanum Gothic', sans-serif;*/
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700&subset=korean');

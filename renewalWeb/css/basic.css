@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+header, footer{font-family: 'Noto Sans KR', sans-serif ;}
+
+
+/*******header*********/
+header{width: 100%; height:120px; position: relative;}
+header .gnb{width:100%; position: absolute; right:0; top:72px; z-index: 999; background-color: #fff; }
+header .gnb>li{float: left; width:142px; font-size: 18px; font-weight:400; text-align:center;}
+header .gnb>li:first-child{padding-left: 42%;}
+header .gnb>li>a:hover{border-bottom:2px solid #2783d5;}
+header .gnb ul li a:hover{color:#2783d5;}
+
+/*소메뉴*/
+nav .gnb ul{display: none;  margin: 35px 0;}
+nav .gnb ul li:first-child{padding-top: 30px;}
+nav .gnb ul a{height:30px; font-size: 14px; font-weight: 300; color:#000; display: block; text-align: center;}
+nav #about a{color:#184cce; font-weight: 500}
+
+.headerH{width: 1180px; height: 120px; margin:0 auto; position: relative;}
+/*로고*/
+header h1{width: 154px; height: 37px; position: absolute; left:0; bottom: 42px;z-index: 99999}
+
+/*서브*/
+header .sub{position: absolute; right: 35px; top:25px; font-size: 13px; font-weight: 300;}
+header .sub>li{float: left; margin-left: 15px; border-right:1px solid  #cccccc;padding-right: 15px;}
+header .sub>li:last-child{border-right: none; padding-right:0; margin-right:35px;}
+header .sub select{border:none; }
+header a{color:#000;}
+
+
+/*******footer*********/
+.wrap{width: 100%; height: 192px; background-color: #4c5459; position: relative;}
+.wrap li{float: left; font-size: 14px; color:#fff; font-weight: 300;}
+.wrap p{font-size: 14px; color:#fff; font-weight: 300; text-align: center;}
+.wrap .footergnb{width: 420px; margin:0 auto; padding:50px 0 38px 0;}
+.wrap .footergnb li{margin-right: 7px; border-right: 1px solid #fff; padding-right: 7px;}
+.wrap .footergnb li:last-child{border-right: none; padding-right: 0;}
+.wrap .footergnb li a{color:#fff; font-weight: 300;}
+.wrap .footergnb2{width: 706px; margin:0 auto; padding-bottom: 15px;}
+.wrap .footergnb2 li{margin-right: 7px; border-right: 1px solid #fff; padding-right: 7px; }
+.wrap .footergnb2 li:last-child{border-right: none; padding-right: 0;}
+footer span{width: 60px; height: 30px; font-size: 12px; text-align: center;border:1px solid #fff; padding:5px 10px; position: absolute; bottom:30px; right:50px; }
+footer span a{color:#fff; vertical-align: middle}
