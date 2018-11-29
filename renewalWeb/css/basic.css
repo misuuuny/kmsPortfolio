@@ -10,6 +10,7 @@ header .gnb>li{float: left; width:142px; font-size: 18px; font-weight:400; text-
 header .gnb>li:first-child{padding-left: 42%;}
 header .gnb>li>a:hover{border-bottom:2px solid #2783d5;}
 header .gnb ul li a:hover{color:#2783d5;}
+header #first>a{font-weight: 500; color:navy;}
 
 /*소메뉴*/
 nav .gnb ul{display: none;  margin: 35px 0;}
@@ -40,5 +41,5 @@ header a{color:#000;}
 .wrap .footergnb2{width: 706px; margin:0 auto; padding-bottom: 15px;}
 .wrap .footergnb2 li{margin-right: 7px; border-right: 1px solid #fff; padding-right: 7px; }
 .wrap .footergnb2 li:last-child{border-right: none; padding-right: 0;}
-footer span{width: 60px; height: 30px; font-size: 12px; text-align: center;border:1px solid #fff; padding:5px 10px; position: absolute; bottom:30px; right:50px; }
+footer span{width: 60px; height: 30px; font-size: 12px; text-align: center;border:1px solid #fff; padding:5px 10px; position: absolute; bottom:55%; right:30%; }
 footer span a{color:#fff; vertical-align: middle}
